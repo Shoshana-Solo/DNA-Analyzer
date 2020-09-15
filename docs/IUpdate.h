@@ -1,14 +1,18 @@
 //
-// Created by shana on 8/19/20.
+// Created by linux on 8/19/20.
 //
 
-#ifndef DOCS_IUPDATE_H
-#define DOCS_IUPDATE_H
+#ifndef DNAANALYZER_IUPDATE_H
+#define DNAANALYZER_IUPDATE_H
 
+
+#include "DNAMetadata.h"
 
 class IUpdate {
+public:
+    virtual DNAMetadata updateDna(const DNAMetadata& metadata) = 0;
 
 };
 
 
-#endif //DOCS_IUPDATE_H
+#endif //DNAANALYZER_IUPDATE_H

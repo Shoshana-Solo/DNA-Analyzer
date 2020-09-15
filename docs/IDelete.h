@@ -1,9 +1,9 @@
 //
-// Created by shana on 8/19/20.
+// Created by linux on 8/19/20.
 //
 
-#ifndef DOCS_IDELETE_H
-#define DOCS_IDELETE_H
+#ifndef DNAANALYZER_IDELETE_H
+#define DNAANALYZER_IDELETE_H
 
 
 class IDelete {
@@ -11,4 +11,4 @@ class IDelete {
 };
 
 
-#endif //DOCS_IDELETE_H
+#endif //DNAANALYZER_IDELETE_H

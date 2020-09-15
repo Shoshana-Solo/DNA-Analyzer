@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="docs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="docs">
+				<Option output="/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/docs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shana/Desktop/c++/lessons/dna_project/docs/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 docs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="docs/fast">
+				<Option output="/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/docs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shana/Desktop/c++/lessons/dna_project/docs/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 docs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/CLI.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/CLI.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/DNAMetadata.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/DNAMetadata.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Dup.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Dup.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IAppend.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IAppend.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IDelete.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IDelete.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IExecute.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IExecute.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IGet.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IGet.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IUpdate.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IUpdate.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IUpdateStatus.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/IUpdateStatus.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Load.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Load.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/MapCommand.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/MapCommand.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/New.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/New.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Pair.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Pair.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Save.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Save.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Slice.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/Slice.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/collection.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/collection.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/controller.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/controller.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/dna_sequence.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/dna_sequence.h">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/main.cpp">
+			<Option target="docs"/>
+		</Unit>
+		<Unit filename="/home/shana/Desktop/c++/lessons/dna_project/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

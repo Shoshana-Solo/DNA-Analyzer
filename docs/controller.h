@@ -1,15 +1,16 @@
+//
+// Created by linux on 8/19/20.
+//
 
-#ifndef  __CONTROLLER_H__
-#define  __CONTROLLER_H__
+#ifndef DNAANALYZER_CONTROLLER_H
+#define DNAANALYZER_CONTROLLER_H
+
+
 #include <iostream>
-#include "cli.h"
+#include "CLI.h"
 #include "collection.h"
-#include "executeHandler.h"
-#include "mapCommand.h"
+#include "MapCommand.h"
 
-//class Collection;
-//class CLI;
-//class ExecuteHandler;
 
 class Controller{
 public:
@@ -23,26 +24,36 @@ private:
 };
 
 inline Controller::Controller()
-:m_collection(Collection()),
-m_cli(CLI()),
-m_map(MapCommand(&m_collection))
+        :m_collection(Collection()),
+         m_cli(CLI()),
+         m_map(MapCommand(m_collection))
 {}
 
 inline void Controller::run()
 {
-    std::vector<std::string> parsedCommand = m_cli.input();
-    IExecuteHandler * command = m_map.getCommandMap(parsedCommand[0]);
-    if(command)
-    {
-        m_cli.output(command->execute(parsedCommand));
-    }
+    bool exit=false;
 
-    else
+    while(!exit)
     {
-        m_cli.output("command not found");
+        std::vector<std::string> parsedCommand = m_cli.input();
+        IExecute * command = m_map.getCommandMap(parsedCommand[0]);
+
+        if(command)
+        {
+            m_cli.output(command->execute(parsedCommand));
+        }
+        else
+        {
+            if (parsedCommand[0]=="exit")
+                exit=true;
+            else
+            {
+                m_cli.output("command not found");
+            }
+        }
+
     }
     std::cout<< "end run"<< std::endl;
 }
 
-
-#endif //__CONTROLLER_H__
+#endif //DNAANALYZER_CONTROLLER_H

@@ -1,9 +1,9 @@
 //
-// Created by shana on 8/19/20.
+// Created by linux on 8/19/20.
 //
 
-#ifndef DOCS_IAPPEND_H
-#define DOCS_IAPPEND_H
+#ifndef DNAANALYZER_IAPPEND_H
+#define DNAANALYZER_IAPPEND_H
 #include "DNAMetadata.h"
 
 class IAppend {
@@ -12,4 +12,5 @@ public:
 };
 
 
-#endif //DOCS_IAPPEND_H
+
+#endif //DNAANALYZER_IAPPEND_H

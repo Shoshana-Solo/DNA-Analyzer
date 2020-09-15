@@ -1,26 +1,30 @@
-#ifndef __LOAD_H__
-#define __LOAD_H__
-
+#ifndef DNAANALYZER_LOAD_H
+#define DNAANALYZER_LOAD_H
 #include <fstream>
-#include "IexecuteHandler.h"
+#include "IExecute.h"
 #include "dna_sequence.h"
 
-class Load: public IExecuteHandler{
+
+class Load: public IExecute{
 public:
-    Load(Collection * collection);
+    explicit Load(Collection *collection);
     ~Load();
     /*virtual*/ std::string execute(const std::vector<std::string> & params);
 
 private:
-    IAppend * m_collection;
-    static size_t s_serialName;
+    IAppend * m_appendCollection;
+    IGet* m_getCollection;
     std::string readFromFile(std::string fileName);
 };
+
+
 inline Load::Load(Collection *collection)
-        :m_collection(collection)
+        :m_appendCollection(collection),
+        m_getCollection(collection)
 {}
+
 
 inline Load::~Load(){}
 
 
-#endif //DNAANALIZER_LOAD_H
+#endif //DNAANALYZER_LOAD_H

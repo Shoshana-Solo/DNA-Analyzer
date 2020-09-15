@@ -1,0 +1,3 @@
+/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shana/Desktop/c++/lessons/dna_project/docs/cmake-build-debug/CMakeFiles/docs.dir
